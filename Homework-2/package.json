@@ -1,0 +1,19 @@
+{
+    "name": "localhost",
+    "version": "1.0.0",
+    "description": "I'm learning GraphQL API with ApolloServer",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app.js"
+    },
+    "author": "Eray Demircioğlu",
+    "license": "ISC",
+    "dependencies": {
+        "apollo-server": "^3.6.7",
+        "apollo-server-errors": "^3.3.1",
+        "graphql-yoga": "^1.18.3",
+        "nanoid": "^3.3.3",
+        "nodemon": "^2.0.15"
+    }
+}
